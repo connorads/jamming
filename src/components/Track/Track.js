@@ -4,12 +4,12 @@ import './Track.css'
 
 function Track(props) {
     return (
-        <div class="Track">
-            <div class="Track-information">
+        <div className="Track">
+            <div className="Track-information">
                 <h3>{props.title}</h3>
                 <p>{props.artist} | {props.album}</p>
             </div>
-            <a class="Track-action">+</a>
+            <a className="Track-action">+</a>
         </div>
     )
 }
