@@ -8,11 +8,12 @@ function SearchResults(props) {
             <h2>Results</h2>
             <div className="TrackList">
             {
-                props.results.map(track => {
-                    return(<Track key={track.id}
-                        title={track.title}
-                        artist={track.artist}
-                        album={track.album} />)
+                props.tracks.map(track => {
+                    return(<Track
+                        key={track.id}
+                        track={track}
+                        trackActionCharacter="+"
+                        handleTrackAction={props.addTrackToPlaylist}/>)
                 })
             }
             </div>

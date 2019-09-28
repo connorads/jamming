@@ -6,10 +6,13 @@ function Track(props) {
     return (
         <div className="Track">
             <div className="Track-information">
-                <h3>{props.title}</h3>
-                <p>{props.artist} | {props.album}</p>
+                <h3>{props.track.title}</h3>
+                <p>{props.track.artist} | {props.track.album}</p>
             </div>
-            <a className="Track-action">+</a>
+            <a className="Track-action" 
+            onClick={() => props.handleTrackAction(props.track)}>
+                {props.trackActionCharacter}
+            </a>
         </div>
     )
 }
