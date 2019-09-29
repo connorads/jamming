@@ -16,9 +16,18 @@ function SearchBar(props) {
     }
   }
 
+  async function handleKeyPress(e) {
+    if (e.key === "Enter") {
+      await handleSearch();
+    }
+  }
+
   return (
       <div className="SearchBar">
-      <input onChange={e => setSearchTerm(e.target.value)} placeholder="Enter A Song Title" />
+      <input 
+        onChange={e => setSearchTerm(e.target.value)}
+        onKeyPress={handleKeyPress}
+        placeholder="Enter A Song Title" />
       <a onClick={handleSearch}>SEARCH</a>
     </div>
   )

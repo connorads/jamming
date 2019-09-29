@@ -20,7 +20,7 @@ Built for the final project of the [Codecademy Pro Intensive - Build Front-End W
 
 ## Potential improvements
 
-* Pressing enter triggers a search
+* ~~Pressing enter triggers a search~~
 * Include preview samples for each track
 * Only display songs not currently present in the playlist in the search results
 * Add a loading screen while playlist is saving
