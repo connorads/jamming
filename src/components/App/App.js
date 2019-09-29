@@ -42,6 +42,9 @@ function App() {
 
   return (
     <div>
+      <a href="https://github.com/connorads/jamming" alt="Jamming GitHub Repo">
+        <img src="./github.png" alt="GitHub Mark" height="56" align="right"/>
+      </a>
       <h1>Ja<span className="highlight">mm</span>ing</h1>
       <div className="App">
         <SearchBar searchSpotify={searchSpotify}/>
