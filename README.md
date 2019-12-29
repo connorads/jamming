@@ -24,6 +24,10 @@ Built for the final project of the [Codecademy Pro Intensive - Build Front-End W
 * Change Playlist Title — users can change the title of their custom playlist.
 * Save Playlist to Account — users can save their custom playlist by clicking a button called SAVE TO SPOTIFY.
 
+## Known issues
+
+* Doesn't work with [Privacy Badger](https://www.eff.org/privacybadger) enabled 🦡😢
+
 ## Potential improvements
 
 * ~~Pressing enter triggers a search~~
